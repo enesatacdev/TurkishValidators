@@ -8,7 +8,23 @@
     <TargetFrameworks>netstandard2.0;net6.0;net7.0;net8.0</TargetFrameworks>
     <LangVersion>latest</LangVersion>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>TurkishValidators Team</Authors>
+    <Company>TurkishValidators</Company>
+    <Description>Test data generator for TurkishValidators library.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/enesatacdev/TurkishValidators</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/enesatacdev/TurkishValidators</RepositoryUrl>
+    <PackageTags>turkish;validator;test;data;generator;mock</PackageTags>
+    <Version>1.0.2</Version>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>icon.png</PackageIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+    <None Include="..\..\LICENSE" Pack="true" PackagePath="\" />
+    <None Include="..\..\icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
 
 </Project>

@@ -18,16 +18,18 @@
     <Company>TurkishValidators</Company>
     <Description>FluentValidation integration extensions for TurkishValidators library.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/TurkishValidators/TurkishValidators</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/TurkishValidators/TurkishValidators</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/enesatacdev/TurkishValidators</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/enesatacdev/TurkishValidators</RepositoryUrl>
     <PackageTags>turkish;validator;fluentvalidation;extensions;validation</PackageTags>
-    <Version>1.0.0</Version>
+    <Version>1.0.2</Version>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>icon.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="..\..\README.md" Pack="true" PackagePath="\" />
     <None Include="..\..\LICENSE" Pack="true" PackagePath="\" />
+    <None Include="..\..\icon.png" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>
