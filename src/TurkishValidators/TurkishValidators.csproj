@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0;net7.0;net8.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>TurkishValidators Team</Authors>
+    <Company>TurkishValidators</Company>
+    <Description>Türkiye'ye özel doğrulama işlemleri için kapsamlı, performanslı ve API'siz çalışan .NET kütüphanesi. (TCKN, VKN, IBAN, Telefon, Plaka, Posta Kodu)</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/TurkishValidators/TurkishValidators</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/TurkishValidators/TurkishValidators</RepositoryUrl>
+    <PackageTags>turkish;validator;tckn;vkn;iban;phone;plate;validation;turkey</PackageTags>
+    <Version>1.0.0</Version>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+    <None Include="..\..\LICENSE" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
