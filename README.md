@@ -151,9 +151,7 @@ string istPlate = provider.GenerateVehiclePlate("İstanbul"); // 34 ... ...
 var bulkData = provider.GenerateBulk(100);
 ```
 
-// Toplu Veri Üretimi
-var bulkData = provider.GenerateBulk(100);
-```
+
 
 ### 6. Kredi Kartı & BIN Sorgulama (Yeni!)
 
