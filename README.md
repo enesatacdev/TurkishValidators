@@ -40,8 +40,11 @@ dotnet add package TurkishValidators.AspNetCore
 # FluentValidation Entegrasyonu
 dotnet add package TurkishValidators.FluentValidation
 
-# Test Verisi Üreticisi (Sadece Test Projeleri İçin)
+# Test Verisi Üreticisi (Test Projeleri İçin)
 dotnet add package TurkishValidators.TestData
+
+# System.Text.Json Entegrasyonu
+dotnet add package TurkishValidators.Json
 ```
 
 ## 💻 Kullanım
@@ -146,6 +149,61 @@ string istPlate = provider.GenerateVehiclePlate("İstanbul"); // 34 ... ...
 
 // Toplu Veri Üretimi
 var bulkData = provider.GenerateBulk(100);
+```
+
+// Toplu Veri Üretimi
+var bulkData = provider.GenerateBulk(100);
+```
+
+### 6. Kredi Kartı & BIN Sorgulama (Yeni!)
+
+Luhn algoritması kontrolü ve banka BIN analizi (Troy, Visa, Mastercard tespiti):
+
+```csharp
+using TurkishValidators.Validators;
+using TurkishValidators.Enums;
+
+bool isValid = CreditCardValidator.IsValid("4543600000000003");
+
+var result = CreditCardValidator.GetBinInfo("4543600000000003");
+if (result.IsValid)
+{
+    Console.WriteLine($"Bank: {result.BankName}"); // Türkiye İş Bankası
+    Console.WriteLine($"Type: {result.CardType}"); // Visa
+}
+```
+
+### 7. System.Text.Json Entegrasyonu (Yeni!)
+
+JSON çıktısında veriyi otomatik maskelemek için:
+
+1. `TurkishValidators.Json` paketini yükleyin.
+2. Property üzerine attribute ekleyin:
+
+```csharp
+using System.Text.Json;
+using System.Text.Json.Serialization;
+using TurkishValidators.Json.Converters;
+
+public class UserDto
+{
+    [JsonConverter(typeof(TcknMaskingConverter))]
+    public string Tckn { get; set; } = "12345678901";
+}
+
+// Çıktı: {"Tckn": "123******01"}
+```
+
+### 8. TurkishFaker (Statik Test Verisi) (Yeni!)
+
+Hızlıca mock data üretmek için statik erişim:
+
+```csharp
+using TurkishValidators.TestData;
+
+string tckn = TurkishFaker.GenerateTCKN();
+string iban = TurkishFaker.GenerateIBAN();
+string mobil = TurkishFaker.GenerateGSM();
 ```
 
 ## ⚙️ Yapılandırma (Configuration)

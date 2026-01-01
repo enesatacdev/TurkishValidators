@@ -16,7 +16,7 @@
     <PackageProjectUrl>https://github.com/enesatacdev/TurkishValidators</PackageProjectUrl>
     <RepositoryUrl>https://github.com/enesatacdev/TurkishValidators</RepositoryUrl>
     <PackageTags>turkish;validator;test;data;generator;mock</PackageTags>
-    <Version>1.0.2</Version>
+    <Version>1.1.0</Version>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageIcon>icon.png</PackageIcon>
   </PropertyGroup>

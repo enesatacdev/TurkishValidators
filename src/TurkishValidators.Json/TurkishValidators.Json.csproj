@@ -13,7 +13,7 @@
     <PackageProjectUrl>https://github.com/enesatacdev/TurkishValidators</PackageProjectUrl>
     <RepositoryUrl>https://github.com/enesatacdev/TurkishValidators</RepositoryUrl>
     <PackageTags>turkish;validator;json;masking;system.text.json;serialization</PackageTags>
-    <Version>1.0.2</Version>
+    <Version>1.1.0</Version>
     <PackageIcon>icon.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>

@@ -13,7 +13,7 @@
     <PackageProjectUrl>https://github.com/enesatacdev/TurkishValidators</PackageProjectUrl>
     <RepositoryUrl>https://github.com/enesatacdev/TurkishValidators</RepositoryUrl>
     <PackageTags>turkish;validator;tckn;vkn;iban;phone;plate;validation;turkey</PackageTags>
-    <Version>1.0.2</Version>
+    <Version>1.1.0</Version>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageIcon>icon.png</PackageIcon>
   </PropertyGroup>
