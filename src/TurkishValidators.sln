@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurkishValidators.AspNetCor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurkishValidators.FluentValidation", "TurkishValidators.FluentValidation\TurkishValidators.FluentValidation.csproj", "{E509AC74-3799-41B3-A8C9-17331E2FE05E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurkishValidators.Json", "TurkishValidators.Json\TurkishValidators.Json.csproj", "{C50963F5-2D81-4A30-B6F9-EE910090F4DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +85,18 @@ Global
 		{E509AC74-3799-41B3-A8C9-17331E2FE05E}.Release|x64.Build.0 = Release|Any CPU
 		{E509AC74-3799-41B3-A8C9-17331E2FE05E}.Release|x86.ActiveCfg = Release|Any CPU
 		{E509AC74-3799-41B3-A8C9-17331E2FE05E}.Release|x86.Build.0 = Release|Any CPU
+		{C50963F5-2D81-4A30-B6F9-EE910090F4DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C50963F5-2D81-4A30-B6F9-EE910090F4DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C50963F5-2D81-4A30-B6F9-EE910090F4DB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C50963F5-2D81-4A30-B6F9-EE910090F4DB}.Debug|x64.Build.0 = Debug|Any CPU
+		{C50963F5-2D81-4A30-B6F9-EE910090F4DB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C50963F5-2D81-4A30-B6F9-EE910090F4DB}.Debug|x86.Build.0 = Debug|Any CPU
+		{C50963F5-2D81-4A30-B6F9-EE910090F4DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C50963F5-2D81-4A30-B6F9-EE910090F4DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C50963F5-2D81-4A30-B6F9-EE910090F4DB}.Release|x64.ActiveCfg = Release|Any CPU
+		{C50963F5-2D81-4A30-B6F9-EE910090F4DB}.Release|x64.Build.0 = Release|Any CPU
+		{C50963F5-2D81-4A30-B6F9-EE910090F4DB}.Release|x86.ActiveCfg = Release|Any CPU
+		{C50963F5-2D81-4A30-B6F9-EE910090F4DB}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -21,6 +21,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\src\TurkishValidators\TurkishValidators.csproj" />
     <ProjectReference Include="..\..\src\TurkishValidators.TestData\TurkishValidators.TestData.csproj" />
+    <ProjectReference Include="..\..\src\TurkishValidators.Json\TurkishValidators.Json.csproj" />
   </ItemGroup>
 
 </Project>

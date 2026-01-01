@@ -19,5 +19,10 @@ namespace TurkishValidators.Options
         /// Sonda kaç karakterin görünür olacağı.
         /// </summary>
         public int VisibleEnd { get; set; } = 0;
+
+        /// <summary>
+        /// Maskeleme modu. Varsayılan: Custom (VisibleStart/End kullanır).
+        /// </summary>
+        public TurkishValidators.Enums.MaskingMode Mode { get; set; } = TurkishValidators.Enums.MaskingMode.Custom;
     }
 }
