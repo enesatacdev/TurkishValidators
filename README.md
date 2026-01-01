@@ -156,7 +156,39 @@ using TurkishValidators.Config;
 // Uygulama başlangıcında (Program.cs / Startup.cs)
 TurkishValidatorConfig.Culture = new System.Globalization.CultureInfo("en-US");
 // Artık hata mesajları İngilizce dönecektir.
+
+## 🌍 Gelişmiş Dil Desteği (Advanced Localization)
+
+Varsayılan Türkçe ve İngilizce mesajların yanı sıra, yeni diller ekleyebilir veya mevcut mesajları ezebilirsiniz:
+
+```csharp
+using TurkishValidators.Config;
+using TurkishValidators.Resources;
+
+// Almanca için özel mesaj seti tanımlama
+var germanMessages = new ValidationMessages
+{
+    TcKimlikNoEmpty = "Die TC-Identitätsnummer darf nicht leer sein.",
+    TcKimlikNoLength = "Die TC-Identitätsnummer muss 11 Ziffern lang sein.",
+    // Diğer mesajlar...
+};
+
+// "de-DE" kültürü için kaydet
+TurkishValidatorConfig.RegisterMessages("de-DE", germanMessages);
+
+// Veya mevcut Türkçe mesajı değiştirme
+var customTr = ValidationMessages.CreateDefault();
+customTr.TcKimlikNoEmpty = "Lütfen TCKN alanını boş bırakmayınız!";
+TurkishValidatorConfig.RegisterMessages("tr-TR", customTr);
 ```
+
+## 🔌 Uyumluluk (Compatibility)
+
+Proje **.NET Standard 2.0** hedeflemektedir, bu sayede aşağıdaki platformların tamamında sorunsuz çalışır:
+
+*   .NET 5, .NET 6, .NET 7, .NET 8+
+*   .NET Core 2.0+
+*   .NET Framework 4.6.1+
 
 ## 🏗️ Proje Yapısı
 

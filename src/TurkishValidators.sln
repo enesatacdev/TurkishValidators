@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurkishValidators", "Turkis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurkishValidators.TestData", "TurkishValidators.TestData\TurkishValidators.TestData.csproj", "{FFC95678-FD89-4391-A0D3-F3D9CF29AC98}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurkishValidators.AspNetCore", "TurkishValidators.AspNetCore\TurkishValidators.AspNetCore.csproj", "{A73E18AB-EEB8-4770-AD12-70833FFF184E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurkishValidators.FluentValidation", "TurkishValidators.FluentValidation\TurkishValidators.FluentValidation.csproj", "{E509AC74-3799-41B3-A8C9-17331E2FE05E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +59,30 @@ Global
 		{FFC95678-FD89-4391-A0D3-F3D9CF29AC98}.Release|x64.Build.0 = Release|Any CPU
 		{FFC95678-FD89-4391-A0D3-F3D9CF29AC98}.Release|x86.ActiveCfg = Release|Any CPU
 		{FFC95678-FD89-4391-A0D3-F3D9CF29AC98}.Release|x86.Build.0 = Release|Any CPU
+		{A73E18AB-EEB8-4770-AD12-70833FFF184E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A73E18AB-EEB8-4770-AD12-70833FFF184E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A73E18AB-EEB8-4770-AD12-70833FFF184E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A73E18AB-EEB8-4770-AD12-70833FFF184E}.Debug|x64.Build.0 = Debug|Any CPU
+		{A73E18AB-EEB8-4770-AD12-70833FFF184E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A73E18AB-EEB8-4770-AD12-70833FFF184E}.Debug|x86.Build.0 = Debug|Any CPU
+		{A73E18AB-EEB8-4770-AD12-70833FFF184E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A73E18AB-EEB8-4770-AD12-70833FFF184E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A73E18AB-EEB8-4770-AD12-70833FFF184E}.Release|x64.ActiveCfg = Release|Any CPU
+		{A73E18AB-EEB8-4770-AD12-70833FFF184E}.Release|x64.Build.0 = Release|Any CPU
+		{A73E18AB-EEB8-4770-AD12-70833FFF184E}.Release|x86.ActiveCfg = Release|Any CPU
+		{A73E18AB-EEB8-4770-AD12-70833FFF184E}.Release|x86.Build.0 = Release|Any CPU
+		{E509AC74-3799-41B3-A8C9-17331E2FE05E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E509AC74-3799-41B3-A8C9-17331E2FE05E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E509AC74-3799-41B3-A8C9-17331E2FE05E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E509AC74-3799-41B3-A8C9-17331E2FE05E}.Debug|x64.Build.0 = Debug|Any CPU
+		{E509AC74-3799-41B3-A8C9-17331E2FE05E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E509AC74-3799-41B3-A8C9-17331E2FE05E}.Debug|x86.Build.0 = Debug|Any CPU
+		{E509AC74-3799-41B3-A8C9-17331E2FE05E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E509AC74-3799-41B3-A8C9-17331E2FE05E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E509AC74-3799-41B3-A8C9-17331E2FE05E}.Release|x64.ActiveCfg = Release|Any CPU
+		{E509AC74-3799-41B3-A8C9-17331E2FE05E}.Release|x64.Build.0 = Release|Any CPU
+		{E509AC74-3799-41B3-A8C9-17331E2FE05E}.Release|x86.ActiveCfg = Release|Any CPU
+		{E509AC74-3799-41B3-A8C9-17331E2FE05E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
