@@ -1,5 +1,7 @@
 # TurkishValidators 🇹🇷
 
+<img src="icon.png" align="right" width="128" height="128" />
+
 [![.NET](https://img.shields.io/badge/.NET-6.0%20%7C%207.0%20%7C%208.0-512bd4)](https://dotnet.microsoft.com/download)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![NuGet](https://img.shields.io/nuget/v/TurkishValidators.svg)](https://www.nuget.org/packages/TurkishValidators/)
@@ -156,6 +158,7 @@ using TurkishValidators.Config;
 // Uygulama başlangıcında (Program.cs / Startup.cs)
 TurkishValidatorConfig.Culture = new System.Globalization.CultureInfo("en-US");
 // Artık hata mesajları İngilizce dönecektir.
+```
 
 ## 🌍 Gelişmiş Dil Desteği (Advanced Localization)
 
